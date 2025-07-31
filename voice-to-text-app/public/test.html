@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            console.log('SpeechRecognition:', SpeechRecognition);
+            if (!SpeechRecognition) {
+                alert('SpeechRecognition is not supported');
+            }
+            else {
+                alert('SpeechRecognition is supported')
+            }
+            
+
+        </script>
+    </body>
+</html>

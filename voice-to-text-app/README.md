@@ -1,12 +1,47 @@
-# React + Vite
+# VoiceToCode: React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a modern, minimal setup for building advanced voice-driven applications using React and Vite. It features hot module replacement (HMR) for rapid development and includes a robust ESLint configuration to help maintain code quality.
 
-Currently, two official plugins are available:
+## Features
+- **Voice to Text** and **Voice to Code** modes
+- Real-time speech recognition and code generation
+- Monaco code editor integration
+- Easily extensible and customizable
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+- [React](https://react.dev/) for building user interfaces
+- [Vite](https://vitejs.dev/) for fast development and build tooling
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) for seamless React integration with Babel-based Fast Refresh
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/) for in-browser code editing
 
-## Expanding the ESLint configuration
+## Getting Started
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   The app will be available at [http://localhost:5173](http://localhost:5173).
+3. **Build for production:**
+   ```sh
+   npm run build
+   ```
+4. **Preview the production build:**
+   ```sh
+   npm run preview
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Linting
+To maintain code quality, run ESLint:
+```sh
+npm run lint
+```
+
+## TypeScript Support
+For production-grade applications, we recommend using TypeScript with type-aware lint rules. See the [official React + TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for guidance on integrating TypeScript and [`typescript-eslint`](https://typescript-eslint.io).
+
+---
+
+For more information, refer to the documentation for [Vite](https://vitejs.dev/), [React](https://react.dev/), and [Monaco Editor](https://microsoft.github.io/monaco-editor/).
